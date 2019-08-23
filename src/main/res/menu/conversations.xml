@@ -20,11 +20,13 @@
         android:id="@+id/action_erasetime"
         android:orderInCategory="60"
         android:showAsAction="never"
+        android:visible="false"
         android:title="Tiempo de vida del Mensaje"/>
     <item
         android:id="@+id/action_cameralock"
         android:orderInCategory="60"
         android:showAsAction="never"
+        android:visible="false"
         android:title="Bloqueo de Camara"/>
     <item
         android:id="@+id/action_close"

@@ -840,7 +840,8 @@ public class ConversationActivity extends XmppActivity
 					attachFileDialog();
 					break;
 				case R.id.action_archive:
-					this.endConversation(getSelectedConversation());
+					//this.endConversation(getSelectedConversation());
+					clearHistoryDialog(getSelectedConversation());
 					break;
 				case R.id.action_contact_details:
 					switchToContactDetails(getSelectedConversation().getContact());
@@ -1016,7 +1017,6 @@ public class ConversationActivity extends XmppActivity
 
 
 					}
-
 					finishAffinity();
 					break;
 

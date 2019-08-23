@@ -3,9 +3,11 @@
 
     <item
         android:id="@+id/scan_fingerprint"
+        android:visible="false"
         android:title="@string/scan_qr_code"/>
     <item
         android:id="@+id/ask_question"
+        android:visible="false"
         android:title="@string/ask_question"/>
 
     <item

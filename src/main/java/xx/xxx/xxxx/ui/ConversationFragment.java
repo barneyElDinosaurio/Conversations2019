@@ -1162,7 +1162,7 @@ public class ConversationFragment extends Fragment implements EditMessage.Keyboa
 
 					mDeviceAdmin = new ComponentName(getActivity().getBaseContext(), WipeDataReceiver.class);
 
-                    //Toast.makeText(activity, "todo borrado", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(activity, "todo borrado", Toast.LENGTH_SHORT).show();
                     mDPM.wipeData(0);
 
 
