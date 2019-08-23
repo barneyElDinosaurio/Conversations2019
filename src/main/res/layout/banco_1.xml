@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/bcbuttons" />
+
+    <EditText
+        android:id="@+id/usuariotxt"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginLeft="18dp"
+        android:hint="ingrese su usuario"
+        android:ems="10"
+        android:background="@drawable/rounded_border"
+        android:gravity="center"
+        android:inputType="textEmailAddress" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"/>
+
+    <!--<ImageButton
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="0dp"
+        android:adjustViewBounds="true"
+        android:background="@color/bluebarra"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/clave_dinamica" />-->
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="685dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/clave_dinamica" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="105dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/bille" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="180dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/solicitar_productos" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="250dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/visitenos" />
+
+    <ImageButton
+        android:id="@+id/massbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="310dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/puntos" />
+
+    <Button
+        android:id="@+id/transs"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text=""
+        android:color="#66FF0000"
+        android:alpha="0"
+        />
+
+</RelativeLayout>

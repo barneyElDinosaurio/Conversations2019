@@ -1,0 +1,3 @@
+include ':libs:MemorizingTrustManager', ':BaseGameUtils', ':app'
+
+rootProject.name = 'Conversations'

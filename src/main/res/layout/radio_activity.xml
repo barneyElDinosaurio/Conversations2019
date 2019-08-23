@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/carpa"
+        android:layout_above="@+id/btnStop"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnPlay"
+        android:layout_alignStart="@+id/btnPlay"
+        android:layout_marginBottom="22dp" />
+
+    <ImageView
+        android:id="@+id/ramses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="Slave Radio"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:background="@android:color/transparent"
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:layout_gravity="left|top"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btn40"
+        android:layout_alignStart="@+id/btn40"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+
+    <Button
+        android:id="@+id/btn20"
+        android:background="@android:color/transparent"
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:layout_gravity="right|top"
+        android:text=""
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn30"
+        android:background="@android:color/transparent"
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:layout_gravity="left|bottom"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn40"
+        android:background="@android:color/transparent"
+        android:layout_width="300px"
+        android:layout_height="200px"
+        android:layout_gravity="right|bottom"
+        android:text=""
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
